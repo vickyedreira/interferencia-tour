@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_90b4a78b0ec9c45098a529144885cad4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_90b4a78b0ec9c45098a529144885cad4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_90b4a78b0ec9c45098a529144885cad4 = L.map(
+                "map_90b4a78b0ec9c45098a529144885cad4",
+                {
+                    center: [-34.59, -58.395],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d5ce1d7e0d9ab97424f2ff0bf03f4fd2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_90b4a78b0ec9c45098a529144885cad4);
+        
+    
+            var marker_2af01ce5501f91cae2c5e1e106989f0d = L.marker(
+                [-34.5831, -58.3933],
+                {}
+            ).addTo(map_90b4a78b0ec9c45098a529144885cad4);
+        
+    
+        var popup_fd076dc54db124209f59fe042202c1a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dd8c25c02bee7b4a1a29542ea3bad94 = $(`<div id="html_1dd8c25c02bee7b4a1a29542ea3bad94" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes</div>`)[0];
+            popup_fd076dc54db124209f59fe042202c1a2.setContent(html_1dd8c25c02bee7b4a1a29542ea3bad94);
+        
+
+        marker_2af01ce5501f91cae2c5e1e106989f0d.bindPopup(popup_fd076dc54db124209f59fe042202c1a2)
+        ;
+
+        
+    
+    
+            marker_2af01ce5501f91cae2c5e1e106989f0d.bindTooltip(
+                `<div>
+                     Museo Nacional de Bellas Artes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d21c5d097d64439cc786a65fb735b398 = L.marker(
+                [-34.5802, -58.4037],
+                {}
+            ).addTo(map_90b4a78b0ec9c45098a529144885cad4);
+        
+    
+        var popup_251d42ca3c2a147f1b6c0fa584bfc7b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96be74ddee0de5aeb8735696e2166ca5 = $(`<div id="html_96be74ddee0de5aeb8735696e2166ca5" style="width: 100.0%; height: 100.0%;">MALBA</div>`)[0];
+            popup_251d42ca3c2a147f1b6c0fa584bfc7b5.setContent(html_96be74ddee0de5aeb8735696e2166ca5);
+        
+
+        marker_d21c5d097d64439cc786a65fb735b398.bindPopup(popup_251d42ca3c2a147f1b6c0fa584bfc7b5)
+        ;
+
+        
+    
+    
+            marker_d21c5d097d64439cc786a65fb735b398.bindTooltip(
+                `<div>
+                     MALBA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78defeda5d50733a274663956baaab48 = L.marker(
+                [-34.5706, -58.411],
+                {}
+            ).addTo(map_90b4a78b0ec9c45098a529144885cad4);
+        
+    
+        var popup_0a1d98c26fa053d86647578aba07483d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe9ab546452ef4499ecb268564c09b58 = $(`<div id="html_fe9ab546452ef4499ecb268564c09b58" style="width: 100.0%; height: 100.0%;">Museo Sívori</div>`)[0];
+            popup_0a1d98c26fa053d86647578aba07483d.setContent(html_fe9ab546452ef4499ecb268564c09b58);
+        
+
+        marker_78defeda5d50733a274663956baaab48.bindPopup(popup_0a1d98c26fa053d86647578aba07483d)
+        ;
+
+        
+    
+    
+            marker_78defeda5d50733a274663956baaab48.bindTooltip(
+                `<div>
+                     Museo Sívori
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c643be982d60fa32cc64ad3c4ff2773d = L.marker(
+                [-34.618, -58.3702],
+                {}
+            ).addTo(map_90b4a78b0ec9c45098a529144885cad4);
+        
+    
+        var popup_e1fd7f31092a0f0fad41975fe08dade0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bca95c559475124ef5935a855cd3208 = $(`<div id="html_4bca95c559475124ef5935a855cd3208" style="width: 100.0%; height: 100.0%;">Museo Moderno de Buenos Aires</div>`)[0];
+            popup_e1fd7f31092a0f0fad41975fe08dade0.setContent(html_4bca95c559475124ef5935a855cd3208);
+        
+
+        marker_c643be982d60fa32cc64ad3c4ff2773d.bindPopup(popup_e1fd7f31092a0f0fad41975fe08dade0)
+        ;
+
+        
+    
+    
+            marker_c643be982d60fa32cc64ad3c4ff2773d.bindTooltip(
+                `<div>
+                     Museo Moderno de Buenos Aires
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_65db57818c3d900fb7e29c0355a2e663 = L.polyline(
+                [[-34.5706, -58.411], [-34.5802, -58.4037], [-34.5831, -58.3933], [-34.618, -58.3702]],
+                {"bubblingMouseEvents": true, "color": "#ee2a7b", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ee2a7b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_90b4a78b0ec9c45098a529144885cad4);
+        
+</script>
+</html>
